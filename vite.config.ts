@@ -20,4 +20,7 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    chunkSizeWarningLimit: 1500 // 设置chunk大小警告阈值为1000kb
+  }
 });
