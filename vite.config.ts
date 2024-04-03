@@ -5,6 +5,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  base:'/syt/',
   // src文件夹配置别名
   resolve: {
     alias: {
@@ -21,6 +22,7 @@ export default defineConfig({
     },
   },
   build: {
-    chunkSizeWarningLimit: 1500 // 设置chunk大小警告阈值为1000kb
+    chunkSizeWarningLimit: 1500, // 设置chunk大小警告阈值为1000kb
+    
   }
 });
