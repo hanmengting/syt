@@ -1,1 +1,0 @@
-import{h as o,aa as n,o as a,b as r,q as s}from"./index-BmJEPG8s.js";const _=o({__name:"index",setup(l){let e=s();n(JSON.stringify(e.query));let t=document.querySelector("html");return t.style.display="none",(c,u)=>(a(),r("div"))}});export{_ as default};
